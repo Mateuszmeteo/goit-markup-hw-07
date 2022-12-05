@@ -407,7 +407,7 @@
   line-height: 1.875;
 }
 
-.sec1__modal-backdrop {
+.backdrop {
   position: fixed;
   left: 0;
   top: 0;
@@ -418,7 +418,7 @@
   display: flex;
 }
 
-.sec1__modal--is-hidden {
+.is-hidden {
   /* display: none; */
   transform: translateX(-100%);
 }
@@ -546,14 +546,20 @@
 .sec1__modal-fieldset3 {
   /* background-color: blueviolet; */
   border: 0;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
   /* text-align: center; */
-  align-items: baseline;
+  /* align-items: baseline; */
 }
 
 .sec1__modal-label3 {
-  display: none;
+  /* background-color: firebrick; */
+  /* display: none; */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* text-align: center; */
+  align-items: baseline;
 }
 
 .sec1__modal-input3 {
@@ -565,25 +571,63 @@
   background: rgb(33, 33, 33);
   border: 1px solid #212121;
   fill: #ffffff;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* display: none; */
+  position: absolute;
+  opacity: 0;
 }
 
 .sec1__modal-checkbox-bg {
-  background: #ffffff;
+  /* background: #ffffff; */
+  cursor: pointer;
   fill: #ffffff;
-  display: none;
+  display: flex;
+  width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  border: 1px solid #212121;
+  /* border: 1px solid #212121; */
+  /* display: none; */
+  /* background-color: chartreuse; */
+  /* width: 16px;
+  height: 15px;
+  border-radius: 2px;
+  background: rgba(33, 33, 33, 1);
+  border: 1px solid #212121;
+  fill: #ffffff;
+  cursor: pointer; */
+}
+
+.sec1__modal-input3 + .sec1__modal-checkbox-bg {
+  /* position:absolute;
+  width: 16px;
+  height: 15px;
+  left: 70px;
+  bottom: 120px; */
   /* background-color: chartreuse; */
 }
 
 .sec1__modal-input3:checked + .sec1__modal-checkbox-bg {
-  display: inline;
+  /* display: inline; */
   width: 16px;
   height: 15px;
   fill: #ffffff;
   background-color: #2196F3;
+  border: 0;
 }
 
+.sec1__modal-svg3 {
+  /* fill: crimson; */
+}
+
+/* .sec1__modal-input3::after {
+    content: url(/images/icons.svg#icon-checkvalid);
+    fill: #000000;
+    background-color: #abcdef;
+    width: 16px;
+    height: 15px;
+    border: 1px solid red;
+} */
 /* .sec1__modal-input3:checked {
     background-image: url(./../images/icons.svg#checkvalid);
     background-color: brown;
@@ -641,6 +685,7 @@
 .sec1__modal-fieldset4-btn {
   width: 200px;
   height: 50px;
+  /* margin-bottom: 40px; */
   border: none;
   border-radius: 4px;
   font-family: inherit;

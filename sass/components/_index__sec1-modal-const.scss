@@ -1,4 +1,4 @@
-.sec1__modal-backdrop {
+.backdrop {
     position: fixed;
     left: 0;
     top: 0;
@@ -9,7 +9,7 @@
     display: flex;
 
 }
-.sec1__modal--is-hidden {
+.is-hidden {
     /* display: none; */
     transform: translateX(-100%);
 }
