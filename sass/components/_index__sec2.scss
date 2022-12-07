@@ -1,4 +1,4 @@
-.sec2 {
+.skills {
     /* background-color: beige; */
     display: flex;
     justify-content: center;
@@ -6,16 +6,16 @@
     margin-top: 94px;
     /* margin-bottom: 94px; */
 }
-.sec2__div {
+.skills__div {
     font-family: 'Roboto', sans-serif;
     /* display: block; */
     
 }
-.sec2__div-h2 {
+.skills__div-h2 {
     display: none;
 
 }
-.sec2__div-list {
+.skills__div-list {
     /* background-color: #486548; */
     list-style: none;
     display: flex;
@@ -23,7 +23,7 @@
     gap: 30px;
 }
 
-.sec2__box {
+.skills__box {
     /* background-color: #254721; */
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@
     background: #F5F4FA;
     border-radius: 4px;
 }
-.sec2__box-h3 {
+.skills__box-h3 {
     color: #212121;
     font-size:14px;
     line-height: 0.875;
@@ -42,7 +42,7 @@
     text-transform: uppercase;
     /* margin-block-end: 10px; */
 }
-.sec2__box-p {
+.skills__box-p {
     color: #757575;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -50,9 +50,20 @@
 }
 
 
-@media (min-width: $phone) {
-    .sec2__div {
-        flex-wrap: wrap;
-    }
+// @media screen and (min-width:480px) {
+//     .skills__div-list {
+//         display: block;
+//     }
+    
+// }
 
-}
+// @media screen and (min-width: 768px) {
+//     .skills__div-list {
+//         display: calc(100%/2);
+//     }
+// }
+// @media screen and (min-width: 1200px) {
+    
+// }
+
+

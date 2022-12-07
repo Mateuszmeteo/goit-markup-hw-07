@@ -1,4 +1,4 @@
-.sec4 {
+.squad {
     /* background-color: blanchedalmond; */
     background: #F5F4FA;
     display: flex;
@@ -7,12 +7,12 @@
     height: 648px;
 }
 
-.sec4__teamdiv {
+.squad__teamdiv {
     /* margin-block: 94px; */
     /* background-color: rgb(121, 45, 45); */
     font-family: 'Roboto', sans-serif;
 }
-.sec4__teamdiv-h2 {
+.squad__teamdiv-h2 {
     text-align: center;
     font-size: 36px;
     line-height: 0.857;
@@ -21,7 +21,7 @@
     margin-block-end: 50px;
 }
 
-.sec4__teamdiv-list {
+.squad__teamdiv-list {
     gap: 30px;
     list-style: none;
     display: flex;
@@ -29,14 +29,14 @@
     padding: 0;
 }
 
-.sec4__teamdiv-listelement{
+.squad__teamdiv-listelement{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     background-color: #ffffff;
     text-align: center;
 }
 
-.sec4__teamdiv-h3 {
+.squad__teamdiv-h3 {
     font-size: 16px;
     line-height: 0.842;
     /* line-height: 19px; */
@@ -44,7 +44,7 @@
     padding-top: 30px;
     padding-bottom: 10px;
 }
-.sec4__teamdiv-p {
+.squad__teamdiv-p {
     font-size: 16px;
     line-height: 0.842;
     /* line-height: 19px; */
@@ -53,7 +53,7 @@
     padding-bottom: 16px;
 }
 
-.sec4__teamlist {
+.squad__teamlist {
     /* background-color: cadetblue; */
     margin-bottom: 30px; 
     gap: 10px;
@@ -62,7 +62,7 @@
     justify-content: center;
     padding: 0;
 }
-.sec4__teamlist-element {
+.squad__teamlist-element {
     /* border: 1px solid rgb(152, 146, 158); */
     /* background-color: crimson; */
     border-radius: 50%;
@@ -77,21 +77,8 @@
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-.sec4__teamlist-element:hover {
+.squad__teamlist-element:hover {
     background-color: #2196F3;
     fill: #ffffff;
     
 }
-/* .sec4__teamlist-svg:hover {
-    fill: #ffffff;
-}  */
-/* .sec4__teamlist-svg {
-    fill: #AFB1B8;
-} */
-/* .teamdivsvg svg:hover {
-    fill: #FFFFFF;
-    fill: blueviolet;
-} */
-
-
-

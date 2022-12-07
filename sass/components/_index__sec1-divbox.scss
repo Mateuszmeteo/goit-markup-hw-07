@@ -1,9 +1,9 @@
-.sec1__divbox {
+.cover__divbox {
     /* align-items: center; */
     /* font-family: 'Roboto', sans-serif; */
     /* max-width: 696px; */
 }
-.sec1__divbox-h1 {
+.cover__divbox-h1 {
 
     text-transform: uppercase;
     letter-spacing: 0.25rem;
@@ -14,7 +14,7 @@
     margin: 0 auto 30px auto;
     max-inline-size: 696px;
 }
-.sec1__divbox-button {
+.cover__divbox-button {
     font-size: 16px;
     font-weight: 700;
     color:#FFFFFF;
@@ -27,3 +27,7 @@
     font-family: inherit;
     line-height:1.875;
 }
+
+// @media screen and (min-width: $phone){
+    
+// }
